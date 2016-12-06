@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavBill" representedClassName="FavBill" syncable="YES" codeGenerationType="class">
+        <attribute name="billChamber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billLA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billLV" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billPDF" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billSponsor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="billTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FavCom" representedClassName="FavCom" syncable="YES" codeGenerationType="class">
+        <attribute name="comChamber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comContact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comOffice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comParent" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FavLegi" representedClassName="FavLegi" syncable="YES" codeGenerationType="class">
+        <attribute name="legiBioid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiBirth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiChamber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiFacebook" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiFax" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiOffice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiTerm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiTwitter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legiWeb" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FavBill" positionX="-63" positionY="90" width="128" height="180"/>
+        <element name="FavCom" positionX="-54" positionY="108" width="128" height="135"/>
+        <element name="FavLegi" positionX="-63" positionY="-18" width="128" height="240"/>
+    </elements>
+</model>
