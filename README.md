@@ -3,11 +3,10 @@
 This is an iOS Mobile application, which will have following features:
 
 * A slide out menu which will provide access to the different screens:
-
-> 1. Legislators
-> 2. Bills
-> 3. Committee
-> 4. Favorites
+ 1. Legislators
+ 2. Bills
+ 3. Committee
+ 4. Favorites
 
 * Self-defined UI and navigators for data searching and detail checking
 
