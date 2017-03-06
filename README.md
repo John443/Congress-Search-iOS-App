@@ -2,16 +2,16 @@
 
 This is an iOS Mobile application, which will have following features:
 
-## A slide out menu which will provide access to the different screens:
+* A slide out menu which will provide access to the different screens:
 
-1. Legislators
-2. Bills
-3. Committee
-4. Favorites
+> 1. Legislators
+> 2. Bills
+> 3. Committee
+> 4. Favorites
 
-## Self-defined UI and navigators for data searching and detail checking
+* Self-defined UI and navigators for data searching and detail checking
 
-## CoreData for user to add, delete, search and modify favorite information
+* CoreData for user to add, delete, search and modify favorite information
 
 Each element in this application is created programmatically, without creating more storyboard. The slide out menu is implemented by the animation character of the viewer component.
 
